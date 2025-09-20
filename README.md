@@ -19,6 +19,8 @@ My second task that was given by CODTECH IT SOLUTIONS
 ![WhatsApp Image 2025-09-20 at 21 17 09_1f7a0df1](https://github.com/user-attachments/assets/781efe4a-4e12-4b53-9186-f4bb52826332)
 
 
+
+
 🌐 Simple REST API Client (Java)
 
 This is a Java program that calls a REST API (https://jsonplaceholder.typicode.com/posts/{id}) and displays the response.
@@ -47,24 +49,35 @@ Readable formatted style
 
 📂 Project Structure
 
+
 restAPIClient/
 │
 ├── SimpleRestApiClient.java   # Main program file
 ├── README.md                  # Documentation (this file)
 
 
+
+
 <img width="1920" height="966" alt="Simple-AI-Based-Recomendation-System_README md at main · Bala123997_Simple-AI-Based-Recomendation-System - Google Chrome 20-09-2025 21_21_20" src="https://github.com/user-attachments/assets/9c68f2e3-8c9b-428f-8460-0f651ed3abb7" />
+
+
 
 
 <img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_21_32" src="https://github.com/user-attachments/assets/d14429f4-224d-4894-a905-0436868f95e4" />
 
 
+
+
 🛠 How to Run the Program
+
+
 
 <img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_13_21" src="https://github.com/user-attachments/assets/c616d355-94a8-45a0-bda0-5d62d4e68772" />
 
 
 <img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_13_25" src="https://github.com/user-attachments/assets/9e1f312d-7475-44da-976f-eee38debf2c8" />
+
+
 
 
 📖 API Details
@@ -82,6 +95,8 @@ title
 body
 
 
+
+
 🧑‍💻 Code Overview
 
 User Input → Enter post numbers or exit to quit.
@@ -93,6 +108,8 @@ API Call → Uses HttpURLConnection with GET request.
 Response Handling → Prints both raw JSON and formatted output.
 
 
+
+
 ✨ Future Improvements
 
 Parse JSON properly using libraries like org.json or Gson
@@ -102,6 +119,8 @@ Add support for fetching comments (/comments) or users (/users)
 Provide search functionality by keyword
 
 Display results in tabular format
+
+
 
 
 Acknowledgements 🙏
