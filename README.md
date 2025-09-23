@@ -21,30 +21,19 @@ My second task that was given by CODTECH IT SOLUTIONS
 
 
 
-🌐 Simple REST API Client (Java)
+■ Features in this program.
 
-This is a Java program that calls a REST API (https://jsonplaceholder.typicode.com/posts/{id}) and displays the response.
-The user can enter multiple post numbers at once, and the program fetches and prints the results in both raw JSON and formatted output.
-It runs in a loop until the user types exit.
-No external libraries are required – uses only Java’s built-in HttpURLConnection.
+1.It will asks the user to input the specific place.  
+2.After it Fetches latitude & longitude from Open-Meteo Geocoding API.  
+3.And then later it Fetches current weather data using coordinates.  
+4.Finally it displays the output in a structured manner.  
 
+■ How to run this java program : 
 
-🚀 Features
-
-✅ Calls REST API using Java standard libraries
-
-✅ Accepts multiple post numbers (e.g., 1 2 3 10)
-
-✅ Handles invalid inputs (non-numeric or out-of-range values)
-
-✅ Displays response in:
-
-Raw JSON
-
-Readable formatted style
-
-
-✅ Runs until user types exit
+1.clone the repository  
+2.Download the JSON library JAR.  
+3.Then add that library JAR to your classpath.  
+4.And then compile and run the program
 
 
 📂 Project Structure
@@ -58,12 +47,10 @@ restAPIClient/
 
 
 
-<img width="1920" height="966" alt="Simple-AI-Based-Recomendation-System_README md at main · Bala123997_Simple-AI-Based-Recomendation-System - Google Chrome 20-09-2025 21_21_20" src="https://github.com/user-attachments/assets/9c68f2e3-8c9b-428f-8460-0f651ed3abb7" />
+<img width="1366" height="685" alt="Image" src="https://github.com/user-attachments/assets/dfebbc57-ff1b-42b7-8e9a-b6fb0215a3b5" />
 
 
-
-
-<img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_21_32" src="https://github.com/user-attachments/assets/d14429f4-224d-4894-a905-0436868f95e4" />
+<img width="1366" height="685" alt="Image" src="https://github.com/user-attachments/assets/e6662204-c4a3-405b-906a-88384df849d2" />
 
 
 
@@ -72,53 +59,10 @@ restAPIClient/
 
 
 
-<img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_13_21" src="https://github.com/user-attachments/assets/c616d355-94a8-45a0-bda0-5d62d4e68772" />
+<img width="1366" height="685" alt="Image" src="https://github.com/user-attachments/assets/d03a3aba-3469-4545-a16c-2f810f603fe9" />
 
 
-<img width="1920" height="966" alt="eclipse-workspace - resrAPIClient_src_restAPIClient_SimpleRestApiClient java - Eclipse IDE 20-09-2025 21_13_25" src="https://github.com/user-attachments/assets/9e1f312d-7475-44da-976f-eee38debf2c8" />
-
-
-
-
-📖 API Details
-
-This program uses the free test API:
-👉 JSONPlaceholder Posts API
-
-Available post IDs: 1–100
-
-Each post contains:
-
-userId
-id
-title
-body
-
-
-
-
-🧑‍💻 Code Overview
-
-User Input → Enter post numbers or exit to quit.
-
-Validation → Checks if input is numeric and within 1-100.
-
-API Call → Uses HttpURLConnection with GET request.
-
-Response Handling → Prints both raw JSON and formatted output.
-
-
-
-
-✨ Future Improvements
-
-Parse JSON properly using libraries like org.json or Gson
-
-Add support for fetching comments (/comments) or users (/users)
-
-Provide search functionality by keyword
-
-Display results in tabular format
+<img width="1366" height="685" alt="Image" src="https://github.com/user-attachments/assets/24dc750d-a845-4750-8795-b537eed8758a" />
 
 
 
